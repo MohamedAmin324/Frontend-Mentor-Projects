@@ -34,6 +34,7 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+This website is built for quick practice, little to no effort will ba made to make it accessible but I may work on that in the near future.
 
 ### Built with
 

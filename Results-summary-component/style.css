@@ -67,7 +67,7 @@ main {
     background: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
     color: var(--light-lavender);
     padding: 1.5rem 0 3.75rem 0;
-    border-radius: 0 0 45px 45px;
+    border-radius: 0 0 50px 50px;
 }
 
 .result h2 {
@@ -92,9 +92,110 @@ main {
     color: var(--white);
     font-weight: var(--md-weight);
     font-size: 1.5em;
-    margin: 1.5rem 0 1.5rem 0 ;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 .honor-details {
     margin-inline: 3.25rem;
+}
+
+.summary {
+    padding: 22px;
+}
+
+.summary h2 {
+    font-weight: var(--big-weight);
+    font-size: 1.15em;
+    color: var(--dark-gray-blue);
+    margin: 35px 15px;
+}
+
+.criteria {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.label {
+    display: flex;
+    gap: 10px;
+    font-weight: var(--big-weight);
+    padding: 0 20px;
+}
+
+.grades .criteria:first-child .label {
+    color: var(--light-red);
+}
+
+.grades .criteria:nth-child(2) .label {
+    color: var(--orange-yellow);
+}
+
+.grades .criteria:nth-child(3) .label {
+    color: var(--green-teal);
+}
+
+.grades .criteria:nth-child(4) .label {
+    color: var(--cobalet-blue);
+}
+
+p:has(.grade) {
+    color: var(--light-lavender);
+    font-weight: var(--md-weight);
+    display: flex;
+    gap: 6px;
+}
+
+.grade {
+    font-weight: var(--big-weight);
+    color: var(--dark-gray-blue);
+}
+
+.btn {
+    width: 100%;
+    display: block;
+    background-color: var(--dark-gray-blue);
+    color: var(--white);
+    padding: 20px;
+    border-radius: 50px;
+    font-weight: var(--md-weight);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 75px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (width > 768px) {
+    body {
+        display: grid;
+        place-content: center;
+    }
+
+    main {
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+
+    main>* {
+        flex-basis: 50%;
+    }
+
+    .result {
+        border-radius: 50px;
+    }
 }

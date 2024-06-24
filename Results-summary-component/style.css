@@ -164,6 +164,8 @@ p:has(.grade) {
 
 .btn:hover {
     cursor: pointer;
+    background: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
+    color: var(--light-lavender);
 }
 
 footer {
@@ -186,12 +188,11 @@ footer {
     }
 
     main {
-        width: 80%;
         margin: auto;
         display: flex;
     }
 
-    main>* {
+    main > * {
         flex-basis: 50%;
     }
 

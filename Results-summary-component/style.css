@@ -175,7 +175,8 @@ p:has(.grade) {
     width: 100%;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
     background: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
     cursor: pointer;
 }

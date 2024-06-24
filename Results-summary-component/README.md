@@ -6,7 +6,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 - [Frontend Mentor - Results summary component solution](#frontend-mentor---results-summary-component-solution)
   - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Links](#links)
   - [My process](#my-process)
@@ -14,9 +13,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
     - [What I learned](#what-i-learned)
   - [Author](#author)
 
-
-
-## Overview
 
 ### The challenge
 

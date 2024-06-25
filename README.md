@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/MohamedAmin324/Frontend-Mentor-Projects/tree/results-summary-component)
+- Live Site URL: [Live Demo](https://mohamedamin324.github.io/Frontend-Mentor-Projects/)
 
 ## My process
 I started with a quick analysis to the mobile design to determine how the HTMl structure will be and which CSS tools I am going to use to achieve the desired layout.
